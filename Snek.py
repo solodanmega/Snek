@@ -4,10 +4,10 @@ import pygame, sys, random
 from pygame.locals import *
 
 #SET YOUR DEFAULT SETTINGS
-boardxtiles = 40#int(input('x:'))
-boardytiles = 12#int(input('y:'))
-tickspe = 10#int(input('speed:'))
-colorscheme = '2'#'0'
+boardxtiles = int(input('x:'))
+boardytiles = int(input('y:'))
+tickspe = int(input('speed:'))
+colorscheme = '0'
 
 
 while colorscheme != '1' and colorscheme != '2':
